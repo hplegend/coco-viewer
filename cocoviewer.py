@@ -20,8 +20,8 @@ from PIL import Image, ImageDraw, ImageTk, ImageFont
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 parser = argparse.ArgumentParser(description="View images with bboxes from the COCO dataset")
-parser.add_argument("-i", "--images", default='', type=str, metavar="PATH", help="path to images folder")
-parser.add_argument("-a", "--annotations", default='', type=str, metavar="PATH", help="path to annotations json file")
+parser.add_argument("-i", "--images", default='D:/hplegend/soybean-pod/test2017-multicategroy/', type=str, metavar="PATH", help="path to images folder")
+parser.add_argument("-a", "--annotations", default='D:/hplegend/soybean-pod/instances_seed_test-multicategroy.json', type=str, metavar="PATH", help="path to annotations json file")
 
 
 class Data:
